@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fcsapi-rest-python"
+version = "4.0.0"
+description = "Python REST API client for Forex, Cryptocurrency, and Stock market data from FCS API"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+authors = [
+    {name = "FCS API", email = "support@fcsapi.com"}
+]
+keywords = [
+    "fcs",
+    "fcsapi",
+    "forex",
+    "cryptocurrency",
+    "crypto",
+    "stock",
+    "rest-api",
+    "market-data",
+    "trading",
+    "currency",
+    "exchange-rates",
+    "bitcoin",
+    "ethereum"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = [
+    "requests>=2.25.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/fcsapi/rest-api-python"
+Documentation = "https://fcsapi.com/document/forex-api"
+Repository = "https://github.com/fcsapi/rest-api-python"
+Issues = "https://github.com/fcsapi/rest-api-python/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
