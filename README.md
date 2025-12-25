@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/Python-%3E%3D3.7-blue.svg)](https://python.org)
-[![PyPI](https://img.shields.io/pypi/v/fcsapi-rest-python.svg)](https://pypi.org/project/fcsapi-rest-python/)
+[![PyPI](https://img.shields.io/pypi/v/fcsapi-rest.svg)](https://pypi.org/project/fcsapi-rest/)
 
 ## Features
 
@@ -18,7 +18,7 @@
 
 ### pip (Recommended)
 ```bash
-pip install fcsapi-rest-python
+pip install fcsapi-rest
 ```
 
 ### Examples
